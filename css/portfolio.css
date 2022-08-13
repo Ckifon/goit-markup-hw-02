@@ -1,0 +1,144 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #212121;
+    --secondary-text-color: #2196F3;
+    --primary-text-color-theme: #757575;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2196F3;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-text-color);
+}
+
+.accent {
+    color: var(--secondary-text-color);
+}
+
+.logo {
+    color: #000000;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.mail,
+.contact-phone-number {
+    color: var(--primary-text-color-theme);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--secondary-text-color);
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--secondary-text-color);
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--secondary-text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.images {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.foto {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.list-general-link-text {
+    font-family: var(--secondary-text-color);
+}
+
+.list-general {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.33;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.accent-link {
+    color: #2196F3;
+}
+
+.address {
+    font-style: normal
+}
+
+.adress-footer {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.mail-footer,
+.contact-phone-number-footer {
+    color: var(--primary-text-color-theme);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.mail-footer:hover,
+.mail-footer:focus,
+.contact-phone-number-footer:hover,
+.contact-phone-number-footer:focus {
+    color: var(--secondary-text-color);
+}
